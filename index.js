@@ -40,8 +40,17 @@ b.names.push('HELLO WORLD')
 console.log(b.user[name]);
 
 let newArr = [4,3,12,17]
+let odd = []
+let even = []
 newArr.forEach(element => {
     if(element % 2 == 0) {
+        even.push(element)
         console.log(element);
     }
+    else {
+        odd.push(element)
+    }
 });
+console.log(newArr);
+console.log(even);
+console.log(odd);
